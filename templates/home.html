@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Movie Recommenders System Web App </title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/home1.css')}}">
+</head>
+<body>
+<h1> Movie Recommender </h1>
+<p> What's your favorite movie!!!?!?!?!</p>
+<div>
+<form action="/result" method="POST">
+
+    <label>Movie name</label>
+    <input type="text" name="fav">
+    <br>
+    
+    <input type="submit" value="Submit">
+    
+</form> 
+</div>
+</body>
+
+</html>
